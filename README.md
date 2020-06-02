@@ -1,6 +1,6 @@
 # Test3 functionality
 
-Version: 1.0.5
+Version: 1.0.6
 
 This MakeCode add-on allows the control of Modems/AT controlled hardware.
 It can be used by the [PXT Calliope mini editor](https://pxt.calliope.cc/). Should also work
