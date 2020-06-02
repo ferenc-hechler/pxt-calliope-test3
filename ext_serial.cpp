@@ -14,7 +14,6 @@ namespace serial {
 
     //%
     void resetSerial() {
-    	uBit.serial.send("resetSerial()\r\n");
         while(uBit.serial.redirect(USBTX, USBRX) == MICROBIT_SERIAL_IN_USE) fiber_sleep(10);
         uBit.serial.baud(MICROBIT_SERIAL_DEFAULT_BAUD_RATE);
     }
