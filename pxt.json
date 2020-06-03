@@ -1,21 +1,16 @@
 {
     "name": "pxt-calliope-test3",
-    "version": "1.0.6",
-    "description": "test3 Functions",
+    "version": "1.0.7",
+    "description": "test3 minimal extension",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "modem.ts",
-        "ext_serial.cpp",
-        "ext_serial.ts",
-        "_locales/de/pxt-calliope-test3-jsdoc-strings.json",
-        "_locales/de/pxt-calliope-test3-strings.json"
-    ],
-    "testFiles": [
-        "tests.ts"
+        "extension.cpp",
+        "extension.ts",
+        "shims.d.ts"
     ],
     "repository": {
         "type": "git",
