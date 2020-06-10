@@ -2,7 +2,7 @@
 namespace myblock {
 
     //% blockId=myblock_getn
-    //% block="get |%n"
+    //% block="getn"
     //% shim=myblock::getn
     export function getn(): number {
     	basic.showString("sim-getn")
